@@ -4,6 +4,7 @@
   "description": "- Authentication.\r - Express Middleware.\r - JSON Web Tokens (JWTs).\r - Hashing Passwords.",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon -r dotenv/config index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
